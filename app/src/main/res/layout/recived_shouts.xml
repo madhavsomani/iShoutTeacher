@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#172532" >
+
+
+
+
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+
+        android:gravity="center"
+        android:weightSum="5"
+        android:paddingBottom="1dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+       android:id="@+id/linearLayout">
+
+        <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:background="@drawable/shadow"
+        android:gravity="center"
+        android:weightSum="5"
+            android:id="@+id/exportlayout"
+            android:paddingBottom="2dp"
+            android:paddingRight="1dp"
+            android:paddingLeft="1dp"
+            android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true">
+
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="300sp"
+                android:layout_height="50sp"
+                android:background="@drawable/bluebackbut"
+                android:textColor="#aacff9"
+                android:text="Export"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:layout_alignTop="@+id/button2"
+                android:layout_toRightOf="@+id/button3"
+
+                android:layout_alignBottom="@+id/button2" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/backbutt2"
+                android:text="Database"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="#42d299"
+                android:layout_centerHorizontal="true"
+                 />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="300sp"
+                android:layout_height="150dp"
+                android:background="@drawable/bluebackbut"
+                android:textColor="#aacff9"
+                android:gravity="center"
+                android:layout_toLeftOf="@+id/button3"
+
+                android:text="Export"
+                android:layout_weight="2"
+
+                 />
+
+        </RelativeLayout>
+
+         <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+
+        android:weightSum="2">
+
+             <TextView
+                 android:id="@+id/textView5"
+                 android:layout_width="wrap_content"
+                 android:layout_height="match_parent"
+                 android:layout_weight="1"
+                 android:layout_alignParentRight="true"
+                 android:text="Counter :"
+                 android:gravity="center"
+                 android:textColor="#108fbd"
+                 />
+
+             <TextView
+                 android:id="@+id/textView6"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                 android:layout_alignParentLeft="true"
+
+                 android:text="Counter :"
+                 android:gravity="center"
+                 android:textColor="#108fbd"
+
+                 android:layout_alignParentTop="true"
+                 android:layout_alignBottom="@+id/textView6" />
+
+             </LinearLayout>
+
+
+
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/linearLayout2"
+        android:layout_above="@+id/linearLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/linearLayout3"
+        android:weightSum="4"
+
+        >
+
+        <ListView
+            android:id="@+id/listView1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/textView4"
+            android:layout_alignLeft="@+id/textView4"
+            android:layout_below="@+id/textView2"
+            android:layout_alignParentLeft="true"
+            android:layout_weight="2"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="0.5sp"
+            android:paddingLeft="0dp"
+            android:paddingRight="10dp"
+            android:textAlignment="center" >
+
+        </ListView>
+
+        <ListView
+            android:id="@+id/listView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/textView4"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="0.5sp"
+            android:paddingLeft="10dp"
+            android:paddingRight="0dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignRight="@+id/textView4"
+            android:layout_below="@+id/textView2"
+            android:layout_weight="2"
+
+            android:textAlignment="center" >
+
+        </ListView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:id="@+id/linearLayout3"
+        android:weightSum="3">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Present"
+            android:textColor="#108fbd"
+
+            />
+
+        <TextView
+            android:id="@+id/range"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Range "
+            android:layout_weight="1"
+            android:textColor="#108fbd"
+             />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/listView2"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:text="Absent"
+            android:layout_weight="1"
+            android:textColor="#108fbd"
+
+            />
+    </LinearLayout>
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:id="@+id/snackbarPosition2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+
+    </android.support.design.widget.CoordinatorLayout>
+
+
+</RelativeLayout>

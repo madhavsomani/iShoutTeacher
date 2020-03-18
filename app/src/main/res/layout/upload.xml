@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#172532"
+    android:padding="2dp"
+    android:weightSum="10">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="-Attendance form-"
+        android:textColor="#aacff9"
+        android:gravity="center"
+        android:padding="5dp"
+        android:textSize="25sp"
+        android:id="@+id/textView9" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/linearLayout"
+        android:layout_below="@+id/textView9">
+
+
+        <WebView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/webView2"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+           />
+    </RelativeLayout>
+
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+
+        android:id="@+id/snackbarPosition2"
+
+        android:layout_above="@+id/linearLayout">
+    </android.support.design.widget.CoordinatorLayout>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="70sp"
+        android:background="@drawable/shadow"
+        android:gravity="center"
+        android:layout_weight="2"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/linearLayout">
+
+        <Button
+            android:id="@+id/submiturlbutton"
+            android:layout_width="300sp"
+            android:layout_height="55sp"
+            android:background="@drawable/backbut"
+            android:textColor="#aacff9"
+            android:layout_alignLeft="@+id/listView1"
+            android:layout_alignParentBottom="true"
+            android:layout_alignRight="@+id/listView1"
+            android:layout_gravity="center_horizontal"
+            android:text="Submit"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

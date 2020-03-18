@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#172532">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="447sp"
+            android:id="@+id/imageView1"
+
+            android:layout_gravity="center_horizontal|top"
+            />
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@drawable/shadow"
+            android:gravity="center"
+
+            android:id="@+id/linearLayout"
+            android:layout_gravity="center_horizontal|bottom">
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="300sp"
+                android:layout_height="55sp"
+                android:background="@drawable/backbut"
+                android:textColor="#aacff9"
+                android:layout_alignLeft="@+id/listView1"
+                android:layout_alignParentBottom="true"
+                android:layout_alignRight="@+id/listView1"
+                android:layout_gravity="center_horizontal"
+                android:text="Set TimeTable"
+                />
+        </LinearLayout>
+
+
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#172532"
+
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Password"
+        android:textColor="#108fbd"
+        android:gravity="center"
+        android:padding="5dp"
+        android:textSize="40sp"
+        android:id="@+id/textView"
+        android:layout_above="@+id/password"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:id="@+id/password"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:background="@drawable/apptheme_textfield_activated_holo_light"
+        android:textSize="50dp"
+        android:layout_weight="0.28"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+
+        android:id="@+id/serversnack"
+
+        android:layout_above="@+id/linearLayout">
+    </android.support.design.widget.CoordinatorLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/shadow"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/linearLayout">
+
+        <Button
+            android:id="@+id/unlockbutton"
+            android:layout_width="300sp"
+            android:layout_height="55sp"
+            android:background="@drawable/backbut"
+            android:textColor="#aacff9"
+            android:layout_alignLeft="@+id/listView1"
+            android:layout_alignParentBottom="true"
+            android:layout_alignRight="@+id/listView1"
+            android:layout_gravity="center_horizontal"
+            android:text="Unlock"
+            />
+    </LinearLayout>
+</RelativeLayout>

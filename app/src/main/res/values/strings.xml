@@ -1,0 +1,383 @@
+<resources>
+    <string name="app_name">iShout Teacher</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="lecture_type">Choose a lecture type</string>
+    <string name="Batch_no">Choose a Batch No</string>
+    <string name="sem">Choose a Semester</string>
+    <string name="department">Choose a Department</string>
+    <string name="subid">Choose a SubjectID</string>
+
+    <string-array name="lecture_type_array">
+        <item>TH</item>
+        <item>PR</item>
+        <item>TU</item>
+        <item>PROJ</item>
+        <item>EL</item>
+        <item>EL1</item>
+        <item>EL2</item>
+        <item>CCACT</item>
+    </string-array>
+
+    <string-array name="sem_array">
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+
+    <string-array name="sem2_array">
+        <item>Sec A</item>
+        <item>Sec B</item>
+        <item>Sec C</item>
+        <item>Sec D</item>
+        <item>Sec E</item>
+        <item>Sec F</item>
+        <item>Sec G</item>
+    </string-array>
+
+    <string-array name="department_array">
+        <item>CE</item>
+        <item>ME - A</item>
+        <item>ME - B</item>
+        <item>IT</item>
+        <item>ETC - A</item>
+        <item>ETC - B</item>
+        <item>EE</item>
+        <item>FIRST YEAR</item>
+    </string-array>
+
+
+    <string-array name="Batch_no_array">
+        <item>ALL</item>
+        <item>Batch - 1</item>
+        <item>Batch - 2</item>
+        <item>Batch - 3</item>
+        <item>Batch - 4</item>
+        <item>Batch - 5</item>
+        <item>Batch - 6</item>
+        <item>Batch - 7</item>
+        <item>Batch - 8</item>
+        <item>Batch - 9</item>
+        <item>Batch - 10</item>
+    </string-array>
+
+    <string-array name="cesubarray">
+
+        <item>CO</item>
+        <item>AM-III(T)</item>
+        <item>DE(P)</item>
+        <item>DE(T)</item>
+        <item>CE(T)</item>
+        <item>PMDS(P)</item>
+        <item>PMDS(T)</item>
+        <item>ICN(T)</item>
+        <item>EE(T)</item>
+        <item>CLAB(P)</item>
+        <item>DMGT(T)</item>
+        <item>FSDP(T)</item>
+        <item>UP(P)</item>
+        <item>UP(T)</item>
+        <item>NCT(T)</item>
+        <item>OOP(P)</item>
+        <item>OOP(T)</item>
+        <item>CLAB(P)</item>
+        <item>EX</item>
+        <item>TOC(T)</item>
+        <item>CAO(T)</item>
+        <item>TCP/IP(P)</item>
+        <item>TCP/IP(T)</item>
+        <item>CG(P)</item>
+        <item>CG(T)</item>
+        <item>IEED(T)</item>
+        <item>CLAB(P)</item>
+        <item>SS(T)</item>
+        <item>DAA(P)</item>
+        <item>DAA(T)</item>
+        <item>DBMS(P)</item>
+        <item>DBMS(T)</item>
+        <item>SEPM(P)</item>
+        <item>SEPM(T)</item>
+        <item>FE(T)</item>
+        <item>PROJ(P)</item>
+        <item>CO-CU</item>
+        <item>OS(T)</item>
+        <item>AUP(P)</item>
+        <item>AUP(T)</item>
+        <item>IANS(P)</item>
+        <item>IANS(T)</item>
+        <item>ELI(T)</item>
+        <item>ELII(T)</item>
+        <item>PROJ(P)</item>
+        <item>USP(P)</item>
+        <item>USP(T)</item>
+        <item>DSGC(P)</item>
+        <item>DSGC(T)</item>
+        <item>ELIII(T)</item>
+        <item>ELIV(T)</item>
+        <item>PROJ(P)</item>
+        <item>CC. ACT.(T)</item>
+
+    </string-array>
+
+<string-array name="eesubarray">
+    <item>AM-III(T)</item>
+    <item>NCES(T)</item>
+    <item>EMI(P)</item>
+    <item>EMI(T)</item>
+    <item>NA(P)</item>
+    <item>NA(T)</item>
+    <item>EDC(P)</item>
+    <item>EDC(T)</item>
+    <item>AMIV(T)</item>
+    <item>EOE(T)</item>
+    <item>DLEC(P)</item>
+    <item>DLEC(T)</item>
+    <item>EMI(P)</item>
+    <item>EMI(T)</item>
+    <item>CP(P)</item>
+    <item>CP(T)</item>
+    <item>ES(T)</item>
+    <item>EPSI(T)</item>
+    <item>UEE(T)</item>
+    <item>EMD(T)</item>
+    <item>MPI(P)</item>
+    <item>MPI(T)</item>
+    <item>EMII(P)</item>
+    <item>EMII(T)</item>
+    <item>EDS(P)</item>
+    <item>EEW(P)</item>
+    <item>PSP(T)</item>
+    <item>EEIM(T)</item>
+    <item>EDTC(T)</item>
+    <item>PE(P)</item>
+    <item>PE(T)</item>
+    <item>CSI(P)</item>
+    <item>CSI(T)</item>
+    <item>IVRW(P)</item>
+    <item>FE(T)</item>
+    <item>CC</item>
+    <item>CSII(T)</item>
+    <item>EPSII(T)</item>
+    <item>ELI(T)</item>
+    <item>HVE(P)</item>
+    <item>HVE(T)</item>
+    <item>EID(P)</item>
+    <item>EID(T)</item>
+    <item>PROJ(P)</item>
+    <item>MATLAB(P)</item>
+    <item>ELII(T)</item>
+    <item>ELIII(T)</item>
+    <item>SP(P)</item>
+    <item>SP(T)</item>
+    <item>CAPS(P)</item>
+    <item>CAPS(T)</item>
+    <item>PROJ(P)</item>
+    <item>CC. ACT.(T)</item>
+
+</string-array>
+
+    <string-array name="etcsubarray">
+        <item>AM-III(T)</item>
+        <item>EDC(P)</item>
+        <item>EDC(T)</item>
+        <item>EMI(P)</item>
+        <item>EMI(T)</item>
+        <item>OOPDS(P)</item>
+        <item>OOPDS(T)</item>
+        <item>NA(T)</item>
+        <item>M-IV(T)</item>
+        <item>PDM(P)</item>
+        <item>PDM(T)</item>
+        <item>EMF(T)</item>
+        <item>DCFM(P)</item>
+        <item>DCFM(T)</item>
+        <item>SS(T)</item>
+        <item>ES(T)</item>
+        <item>SW(P)</item>
+        <item>AWT(T)</item>
+        <item>MM(P)</item>
+        <item>MM(T)</item>
+        <item>ACD(P)</item>
+        <item>ACD(T)</item>
+        <item>CE(P)</item>
+        <item>CE(T)</item>
+        <item>IEED(T)</item>
+        <item>TWS(T)</item>
+        <item>DSP(P)</item>
+        <item>DSP(T)</item>
+        <item>CSE(T)</item>
+        <item>DC(P)</item>
+        <item>DC(T)</item>
+        <item>FE(T)</item>
+        <item>EWP(P)</item>
+        <item>CCA</item>
+        <item>IV(P)</item>
+        <item>DSPA(P)</item>
+        <item>CC</item>
+        <item>DSPA(T)</item>
+        <item>TVE(P)</item>
+        <item>TVE(T)</item>
+        <item>OC(T)</item>
+        <item>ADSD(P)</item>
+        <item>ADSD(T)</item>
+        <item>EL-I(T)</item>
+        <item>PROJ(P)</item>
+        <item>MRE(T)</item>
+        <item>CCN(T)</item>
+        <item>WMC(T)</item>
+        <item>EL-II(T)</item>
+        <item>EL-II(T)-1</item>
+        <item>EL-III(T)</item>
+        <item>EL-III(T)-1</item>
+        <item>PROJ(P)</item>
+        <item>CC. ACT.(T)</item>
+
+    </string-array>
+
+<string-array name="mesubarray">
+    <item>CC. ACT.(T)</item>
+    <item>AM-III(T)</item>
+    <item>KM(T)</item>
+    <item>FM(T)</item>
+    <item>MP(P)</item>
+    <item>MP(T)</item>
+    <item>EM(P)</item>
+    <item>EM(T)</item>
+    <item>MD(P)</item>
+    <item>TRS(P)</item>
+    <item>AM-IV(T)</item>
+    <item>ET(T)</item>
+    <item>HM(P)</item>
+    <item>HM(T)</item>
+    <item>MP(P)</item>
+    <item>MP(T)</item>
+    <item>MM(P)</item>
+    <item>MM(T)</item>
+    <item>ES(T)</item>
+    <item>PROJ(P)</item>
+    <item>EXCURI</item>
+    <item>IEED(T)</item>
+    <item>DME(T)</item>
+    <item>APP(T)</item>
+    <item>HT(P)</item>
+    <item>HT(T)</item>
+    <item>MMM(P)</item>
+    <item>MMM(T)</item>
+    <item>CA-I(P)</item>
+    <item>IV(P)</item>
+    <item>EC-I(T)</item>
+    <item>CSE(T)</item>
+    <item>OR(T)</item>
+    <item>ME(P)</item>
+    <item>ME(T)</item>
+    <item>DM(P)</item>
+    <item>DM(T)</item>
+    <item>FE(T)</item>
+    <item>CA-II(P)</item>
+    <item>ICS(P)</item>
+    <item>CC</item>
+    <item>IE(T)</item>
+    <item>EL-I(T)</item>
+    <item>CAD(P)</item>
+    <item>CAD(T)</item>
+    <item>EC-II(P)</item>
+    <item>EC-II(T)</item>
+    <item>DMD(P)</item>
+    <item>DMD(T)</item>
+    <item>PROJ(P)</item>
+    <item>ECA</item>
+    <item>IM(T)</item>
+    <item>EL-II(P)</item>
+    <item>EL-II-1(P)</item>
+    <item>EL-II(T)</item>
+    <item>EL-II-1(T)</item>
+    <item>EL-III(T)</item>
+    <item>EL-III-1(T)</item>
+    <item>AIP(P)</item>
+    <item>AIP(T)</item>
+    <item>EC-III(P)</item>
+    <item>EC-III(T)</item>
+    <item>PROJ(P)</item>
+
+</string-array>
+
+<string-array name="itsubarray">
+    <item>AM-III(T)</item>
+    <item>PLDC(P)</item>
+    <item>PLDC(T)</item>
+    <item>EIT(T)</item>
+    <item>DEFM(P)</item>
+    <item>DEFM(T)</item>
+    <item>DC(T)</item>
+    <item>EE(T)</item>
+    <item>CLI(T)</item>
+    <item>DMGT(T)</item>
+    <item>ADS(P)</item>
+    <item>ADS(T)</item>
+    <item>TOC(T)</item>
+    <item>CAO(T)</item>
+    <item>OOM(P)</item>
+    <item>OOM(T)</item>
+    <item>CLII(P)</item>
+    <item>COC(T)</item>
+    <item>SP(T)</item>
+    <item>DAA(T)</item>
+    <item>SE(P)</item>
+    <item>SE(T)</item>
+    <item>CG(P)</item>
+    <item>CG(T)</item>
+    <item>JAVA(P)</item>
+    <item>JAVA(T)</item>
+    <item>IEED(T)</item>
+    <item>CN(T)</item>
+    <item>OS(T)</item>
+    <item>DBMS(P)</item>
+    <item>DBMS(T)</item>
+    <item>IP(P)</item>
+    <item>IP(T)</item>
+    <item>FE(T)</item>
+    <item>PROJ(P)</item>
+    <item>CO_CURRICULAR</item>
+    <item>DWM(P)</item>
+    <item>DWM(T)</item>
+    <item>CSS(P)</item>
+    <item>CSS(T)</item>
+    <item>AI(T)</item>
+    <item>EL-I(T)</item>
+    <item>EL-II(T)</item>
+    <item>PROJ(P)</item>
+    <item>DS(P)</item>
+    <item>DS(T)</item>
+    <item>GAP(P)</item>
+    <item>GAP(T)</item>
+    <item>EL-III(T)</item>
+    <item>EL-IV(T)</item>
+    <item>PROJ(P)</item>
+    <item>CC</item>
+    <item>CC. ACT.(T)</item>
+
+</string-array>
+
+<string-array name="firstyearsubarray">
+    <item>CC. ACT.(T)</item>
+    <item>M-II</item>
+    <item>AP(P)</item>
+    <item>AP(T)</item>
+    <item>MC(P)</item>
+    <item>MC(T)</item>
+    <item>EM(P)</item>
+    <item>EM(T)</item>
+    <item>AEE</item>
+    <item>EG-II</item>
+    <item>WS</item>
+    <item>ES</item>
+    <item>ACT</item>
+</string-array>
+
+</resources>
+
+

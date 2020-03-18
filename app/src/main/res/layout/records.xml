@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    android:background="#172532">
+
+
+    <TextView
+        android:padding="10dp"
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="TextView"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#108fbd"
+        />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_weight="0.76"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:text="Large Text" 
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+
+        android:id="@+id/snackbarPosition2"
+
+        android:layout_above="@+id/linearLayout">
+    </android.support.design.widget.CoordinatorLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/shadow"
+        android:gravity="center"
+        android:padding="2dp"
+
+         android:id="@+id/linearLayout"
+        android:weightSum="3">
+
+
+        <Button
+            android:id="@+id/deletbutn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="@drawable/redbut"
+            android:text="Delete"
+            android:textColor="#ec3e29" />
+
+        <Button
+            android:id="@+id/uploadbutn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/greenbut"
+            android:text="Upload"
+
+            android:textColor="#42d299" />
+
+        </LinearLayout>
+
+
+</LinearLayout>

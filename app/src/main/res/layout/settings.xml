@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#172532"
+
+    >
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:padding="10dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Profile Setup"
+            android:textColor="#FF0884C6"
+            android:id="@+id/textView7"
+            android:layout_gravity="center_horizontal"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:gravity="center"
+            android:ems="10"
+            android:id="@+id/nametag"
+            android:hint="Name"
+            android:textColor="#48A66A"
+            android:background="@drawable/apptheme_textfield_activated_holo_light"
+            android:layout_below="@+id/textView7"
+            android:layout_centerHorizontal="true" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:gravity="center"
+            android:ems="10"
+            android:id="@+id/workat"
+            android:textColor="#48A66A"
+            android:hint="BtNo or ID:"
+            android:background="@drawable/apptheme_textfield_activated_holo_light"
+            android:layout_below="@+id/nametag"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:layout_width="200sp"
+            android:layout_height="50sp"
+            android:background="@drawable/backbut"
+            android:textColor="#aacff9"
+
+           android:layout_marginTop="15dp"
+
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:text="UPDATE"
+            android:id="@+id/update"
+
+            android:layout_below="@+id/workat"
+            android:layout_centerHorizontal="true" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:padding="10dp"
+        android:gravity="center">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="RollNo/ID Range"
+            android:textColor="#FF0884C6"
+            android:paddingTop="40dp"
+            android:layout_gravity="center_horizontal"
+            android:paddingBottom="40dp"
+
+            android:id="@+id/textView11"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:ems="10"
+
+            android:textColor="#48A66A"
+            android:background="@drawable/apptheme_textfield_activated_holo_light"
+            android:id="@+id/fromrange"
+            android:hint="0"
+            android:gravity="center"
+            android:layout_below="@+id/textView11"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_toLeftOf="@+id/textView8"
+            android:layout_toStartOf="@+id/textView8" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:ems="10"
+            android:textColor="#48A66A"
+            android:background="@drawable/apptheme_textfield_activated_holo_light"
+            android:id="@+id/torange"
+            android:hint="9999"
+
+            android:gravity="center"
+            android:layout_alignBottom="@+id/textView8"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_toRightOf="@+id/textView8"
+            android:layout_toEndOf="@+id/textView8" />
+
+        <Button
+            android:layout_width="200sp"
+            android:layout_height="50sp"
+            android:background="@drawable/backbut"
+            android:textColor="#aacff9"
+        android:gravity="center"
+
+            android:text="UPDATE"
+            android:id="@+id/button"
+
+            android:layout_gravity="center_horizontal"
+
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" />
+
+        TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Exceptions RollNo/ID"
+            android:textColor="#FF0884C6"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/textView10"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:layout_below="@+id/fromrange"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/torange"
+            android:layout_alignEnd="@+id/torange" />
+
+        EditText
+            android:layout_width="wrap_content"
+            android:layout_height="55sp"
+            android:inputType="phone"
+
+            android:textColor="#48A66A"
+            android:background="@drawable/apptheme_textfield_activated_holo_light"
+            android:id="@+id/exceptionno"
+            android:hint="2,6,7,etc"
+            android:gravity="center"
+
+            android:layout_below="@+id/textView10"
+            android:layout_alignRight="@+id/textView10"
+            android:layout_alignEnd="@+id/textView10"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="TO"
+            android:id="@+id/textView8"
+            android:textColor="#FF0884C6"
+
+
+            android:layout_centerHorizontal="true"
+            android:layout_alignBottom="@+id/fromrange" />
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/shadow"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/linearLayout"
+        android:padding="0dp">
+
+        <android.support.design.widget.CoordinatorLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+
+            android:id="@+id/snackbarPosition2"
+
+            android:layout_above="@+id/linearLayout">
+        </android.support.design.widget.CoordinatorLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
